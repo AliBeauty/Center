@@ -1,0 +1,72 @@
+
+.contenedor {max-width: 980px!important; margin: 0 auto;background-color: #ffffff;}
+
+body {background-color: #931248!important}
+
+/*Estilos para navegación*/
+.navbar-default {background-color: transparent!important;border-color: transparent!important;}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {color: #ffff!important; background-color: #a84172!important;}
+.navbar-nav > li > a { padding-top: 7px!important; padding-bottom: 7px!important;border-radius: 5px!important;}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {color: #fff!important;background-color: transparent!important;}
+.navbar-default .navbar-nav > li > a {color: #D092DD!important;margin-left: 65px!important;}
+.navbar-nav{margin-top: 15px!important;}
+
+
+
+
+form 
+{
+	width: 450px;
+	margin: auto;
+	background: #2c2c2c;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+	padding-bottom: 10px;
+}
+
+h2
+{
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+input, textarea
+{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+}
+
+textarea
+{
+	min-height: 200px;
+	max-height: 300px;
+	max-width: 100%;
+}
+
+#boton
+{
+	background:#31384A;
+	color: #fff;
+	padding: 20px;
+}
+#boton:hover
+{
+	cursor: pointer;
+}
+
+@media (max-height: 480px)
+{
+	form
+	{
+		width: 100px;
+	}
+}
